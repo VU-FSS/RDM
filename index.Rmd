@@ -50,15 +50,14 @@ Some questions:
   1. **Plan & Design**
     - [Get support when applying for external funding (Rian & Marleen)](#external-funding)
     - [Content for proposals: Ethics, Privacy, RDM (Koen)](#proposal-content-rdm)
-    - Budget (?)
-    - Impact (Joris)
+    - Impact? (Joris)
   2. **Starting a new project (Time to Grant)**
-    - [I was just awarded a grant, now what? (Aysen)](#awarded-then-what)
+    - [Newly awarded projects: next steps (Aysen)](#awarded-then-what)
     - [Ethics, Data Management and Privacy for new projects](#new-rdm)
   3. **Managing ongoing projects**
     - [Reporting changes in ongoing projects to your funder (Aysen)](#ongoing-changes)
     - [Organizing your research data (Koen)](#ongoing-rdm)
-  4. **Reporting,  publishing, and Impact**
+  4. **Publishing, and Impact**
     - [PURE & VU Research Portal (Rob)](#completed-pure)
     - [Archiving and/or publishing data (Koen)](#completed-rdm)
     - [Support for generating research impact (Joris)](#impact)
