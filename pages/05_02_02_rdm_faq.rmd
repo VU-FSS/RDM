@@ -149,8 +149,20 @@ You can log into [DMPOnline][dmponline] with your VU credentials to start writin
 <details>
 <summary>**Where can I find examples of Data Management Plans?**</summary>
 [DMPOnline][dmponline] has a large number of Data Management Plans from which you can get inspiration for your own DMP.
+</details>
 
-### I never created a Data Management Plan. Is that bad?
+<details>
+<summary>**What DMP template should I use?**</summary>
+For projects involving personal data, it is recommended that you use the VU template. You can currently only access the VU Template by ticking the box "*No funder associated with this plan or my funder is not listed*". This template is accepted by ZonMW and NWO. By using this template you make sure that the information of your project can be used in the "GDPR registry", which the VU is obligated to maintain and provide to the privacy authorities on request.
+</details>
+
+<details>
+<summary>**What if my funder doesn't accept the VU template?**</summary>
+You can make use of the template provided by your funder (most funders' templates are on DMP Online). To make sure your project is included in the GDPR registry, you need to fill out the VU GDPR registration for for reseatch, which you can find as a template on DMP Online: select "Create Plans", and then make sure to tick the box "*No funder associated with this plan or my funder is not listed*".
+</details>
+
+<details>
+<summary>**I never created a Data Management Plan. Is that bad?**</summary>
 There are some situations in which writing a DMP is mandatory. For example, if you have received a grant, you almost always have to write a DMP. The Faculty of Social Sciences also requires you to write a DMP for any new research project you start. And DMPs are sometimes necessary components of various requests, such as an ethics application (for a full procedure) and a storage application (in some cases). And obviously, if you are following the course “Writing a DMP”, you have to write a DMP to complete the course.
 
 Now, for research that is already underway, writing a DMP is a good practice, but not doing so is not necessarily bad. Writing a DMP, though, is a good way to keep you accountable and not let things come down to chance and luck. And it helps you to avoid last-minute panic. Although you are already under way with the research, it can still be a good idea to write a DMP. You can get in touch with your data steward or the RDM Support Desk if you still want to do it.
