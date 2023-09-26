@@ -1,6 +1,6 @@
 --- 
-title: "Research Support Office"
-author: "FSW Data Steward | Last updated: `r Sys.Date()`"
+title: "FSS RDM Pages"
+author: "FSW Data Steward"
 date: '`r format(Sys.time(), "%d %B %Y")`'
 site: bookdown::bookdown_site
 documentclass: book
@@ -29,38 +29,23 @@ local({r <- getOption("repos")
 })
 ```
 
-# (PART\*) Getting Started Guide {-}
-
-
-
 # Index
 
-This is a draft version of the [VU FSS Getting Started guide](https://vu.nl/en/employee/social-sciences-getting-started). The goal is to have a quick overview of all the things the research office can do for researchers, presented in a way that it is easy to navigate, even for people not necessarily familiar with the way we work. For now, I have included the names of RSO people after each link, to indicate who is responsible for the content.
+This web site contains the latest draft versions of the Research Support Office's pages on
+Research Data Management. The current "official" versions of these pages can be accessed through
+the [Social Sciences Getting Started page](fss-getting-started).
 
-Some questions:
-
-- Are the phases of the research cycle correct, or should we add more?
-- Are there topics that we provide support for that we should add?
-- Are the names of the pages easy to understand? How can we improve?
-
----------------
-
+## Table of contents
 
 - **Support throughout the Research Cycle**
   1. **Plan & Design**
-    - [Get support when applying for external funding (Rian & Marleen)](#external-funding)
     - [Content for proposals: Ethics, Privacy, RDM (Koen)](#proposal-content-rdm)
-    - Impact? (Joris)
   2. **Starting a new project (Time to Grant)**
-    - [Newly awarded projects: next steps (Aysen)](#awarded-then-what)
     - [Ethics, Data Management and Privacy for new projects](#new-rdm)
   3. **Managing ongoing projects**
-    - [Reporting changes in ongoing projects to your funder (Aysen)](#ongoing-changes)
     - [Organizing your research data (Koen)](#ongoing-rdm)
   4. **Publishing, and Impact**
-    - [PURE & VU Research Portal (Rob)](#completed-pure)
     - [Archiving and/or publishing data (Koen)](#completed-rdm)
-    - [Support for generating research impact (Joris)](#impact)
 - **Knowledge and Guidelines**
   - [Templates](#templates)
   - RDM
@@ -68,8 +53,6 @@ Some questions:
     - [RDM FAQ](#rdm-faq)
     - [RDM Tools](#rdm-tools)
     - [A Guide to FAIR data](#rdm-fair)
-  - [Ethics Review](#ethics-review)
-  - Privacy
 
 
 <!---
@@ -83,10 +66,17 @@ Links
 [self-check]: https://vuletteren.eu.qualtrics.com/jfe/form/SV_6hCj2czIWzboW6V
 [fss-rdm-info]: https://vu.nl/en/employee/social-sciences-getting-started/data-management-fss
 [fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
-[fss-rdm-policy]: https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/4d95b39d-42d0-49c3-8797-382ed7767549/FSW%20Datamanagementbeleid%20ENG.pdf
+[fss-rdm-faq]: rdm-faq.html
+[fss-guidelines-rdm]: fss-guidelines-rdm.html
+[fss-rdm-tools]: rdm-tools.html
+[fss-getting-started]: https://vu.nl/en/employee/social-sciences-getting-started
 
 
-[fss-guidelines-archiving]: vu-fss-guidelines-for-archiving-data.html
+<!--- old rdm policy https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/4d95b39d-42d0-49c3-8797-382ed7767549/FSW%20Datamanagementbeleid%20ENG.pdf -->
+
+
+
+[fss-guidelines-archiving]: fss-guidelines-archiving
 [fss-guidelines-organization]: vu-fss-guidelines-for-data-organization.html
 
 
@@ -96,7 +86,7 @@ Links
 [rds-portal]: https://vu.nl/nl/medewerker/research-data-support
 [storage-costs]: https://vu.nl/en/about-vu/more-about/costs-research-en-archiving-storage
 
-
+[vu-minimal-metadata]: https://github.com/vu-rdm-tech/metadata/blob/main/minimal_metadata_guide.md
 <!---
 Rules, regulations and guidelines
 -->
