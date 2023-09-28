@@ -11,6 +11,11 @@ read_csv("assets/tool_details.csv") %>%
 kable()
 ```
 
+```{r, echo=F, message = FALSE, results="asis"}
+
+print_more_resources()
+
+```
 
 
 
