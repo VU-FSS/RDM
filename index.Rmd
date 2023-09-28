@@ -27,13 +27,29 @@ local({r <- getOption("repos")
        r["CRAN"] <- "https://cloud.r-project.org" 
        options(repos=r)
 })
+
+
+more_resources <- 
+"## More resources
+- [Information when starting a new project][fss-getting-started]
+- [FSS RDM Guidelines][fss-guidelines-rdm]
+- [FSS Guidelines for data organization][fss-guidelines-organization]
+- [FSS Guidelines for data archiving][fss-archiving]
+- [RDM FAQ][fss-rdm-faq]
+- [Overview of RDM Tools ][fss-rdm-tools]
+"
+
+print_more_resources <- function(){
+  cat(more_resources)
+}
+
 ```
 
 # Index
 
 This web site contains the latest draft versions of the Research Support Office's pages on
 Research Data Management. The current "official" versions of these pages can be accessed through
-the [Social Sciences Getting Started page](fss-getting-started).
+the [Social Sciences Getting Started page][fss-getting-started].
 
 ## Table of contents
 
@@ -57,34 +73,29 @@ the [Social Sciences Getting Started page](fss-getting-started).
 
 <!---
 Links
+Make sure all links are defined here so that they can be easily updated.
 -->
-
 
 <!-- Faculty Pages -->
 
 [rerc]: https://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
 [self-check]: https://vuletteren.eu.qualtrics.com/jfe/form/SV_6hCj2czIWzboW6V
 [fss-rdm-info]: https://vu.nl/en/employee/social-sciences-getting-started/data-management-fss
+
 [fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
 [fss-rdm-faq]: rdm-faq.html
 [fss-guidelines-rdm]: fss-guidelines-rdm.html
+[fss-guidelines-archiving]: fss-guidelines-archiving.html
+[fss-guidelines-organization]: vu-fss-guidelines-for-data-organization.html
 [fss-rdm-tools]: rdm-tools.html
 [fss-getting-started]: https://vu.nl/en/employee/social-sciences-getting-started
-
-
-<!--- old rdm policy https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/4d95b39d-42d0-49c3-8797-382ed7767549/FSW%20Datamanagementbeleid%20ENG.pdf -->
-
-
-
-[fss-guidelines-archiving]: fss-guidelines-archiving
-[fss-guidelines-organization]: vu-fss-guidelines-for-data-organization.html
 
 
 <!-- VU-wide Resources -->
 
 [libguide]: https://libguides.vu.nl/rdm
 [rds-portal]: https://vu.nl/nl/medewerker/research-data-support
-[storage-costs]: https://vu.nl/en/about-vu/more-about/costs-research-en-archiving-storage
+[storage-costs]: https://vu.nl/en/employee/research-data-support/costs-research-en-archiving-storage
 
 [vu-minimal-metadata]: https://github.com/vu-rdm-tech/metadata/blob/main/minimal_metadata_guide.md
 <!---
@@ -118,9 +129,6 @@ Policy comparions
 [fss-nkwp]: policy-comparisons.html#beroepscode-nederlandse-kring-voor-wetenschap-der-politiek
 [fss-nsv]: policy-comparisons.html#beroepscode-nederlandse-sociologische-vereniging
 
-
-
-
 <!-- 
   Tools
 -->
@@ -134,6 +142,8 @@ Policy comparions
 [amnesia]: https://amnesia.openaire.eu/
 [storage-finder]: https://vu.nl/en/research/storagefinder
 [cryptomator]: https://cryptomator.org/
+[research drive]: https://services.vu.nl/esc?id=kb_article&sysparm_article=KB0012856
+
 
 
 
@@ -153,6 +163,8 @@ Policy comparions
 
 
 [datasharingstatement]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/Ef6ZP4Z0jX1EoiUuIdGJ7X4BjdeYnBz4LPhtEvVJK7gHKg?e=AVOzH1
+
+
 <!-- Contacts -->
 
 [rdmsupport]: mailto:RDM@vu.nl 
