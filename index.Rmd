@@ -164,7 +164,7 @@ find there in: Teams/Webpages research/datamanagement/files
 [dmponline-public]: https://dmponline.vu.nl/public_plans
 
 
-[datasharingstatement]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/Ef6ZP4Z0jX1EoiUuIdGJ7X4BjdeYnBz4LPhtEvVJK7gHKg?e=AVOzH1
+[datasharingstatement]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EaPobOoyWvtOraUROLEo6IoBCSbezaf-QGQYmiK1wazN3g?e=tyOI7T
 
 
 <!-- Contacts -->
