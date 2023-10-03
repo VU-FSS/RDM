@@ -1,16 +1,8 @@
-# (PART\*) Knowledge and Guidelines {-}
-
 # Templates {#templates}
 
 ## Data Management Plans
 
-The University Library manages [DMP Online][dmponline] so that all templates are up-to-date. It is advisable to use the VU template whenever possible (this is accepted by ZonMW and NWO instead of their own templates).
-
-Filled in examples can be found in the following places:
-
-- There is a page with public DMPs on [DMP Online][dmponline-public]. You are encouraged to make your own DMP public as well.
-- The LIBER Research Data Management Working Group maintains [a page with example DMPS][liber-dmps]. These focus mostly on economics, but may be of use to other Social Scientists as well.
-- The [FSS Guidelines for Data Organization][fss-guidelines-organization] include an example DMP for each use case.
+The University Library manages [DMP Online][dmponline] so that all templates are up-to-date. It is advisable to use the VU template whenever possible (this is accepted by ZonMW and NWO instead of their own templates). The [FSS Guidelines for Data Organization][fss-guidelines-organization] includes example DMPs that you can use for inspiration. For detailed guidance, you are encouraged to plan a consult with the [Faculty Data Steward][datasteward]
 
 ## Informed consent
 
@@ -23,14 +15,20 @@ Whatever form you choose, you need to make sure your respondents are well inform
 
 The [Faculty Data Steward][datasteward] can help you find the right way to inform your respondents and obtaining their consent.
 
-
 ## Data Protection Impact Assessment
 
-A Data Protection Impact Assessment (DPIA) is a systematic process that helps identify, assess, and mitigate the risks associated with the processing of personal data. While it is never a bad idea to do a DPIA, in some cases it's mandatory. To check whether you need to do a DPIA, you can fill out the [pre-DPIA tool][pre-dpia]. If the result is that a DPIA is needed, you can contact the [Faculty Data Steward][datasteward] to assist in drafting one, or have a look at the [DPIA template][dpia].
+A Data Protection Impact Assessment (DPIA) is a systematic process that helps identify, assess, and mitigate the risks associated with the processing of personal data. While it is never a bad idea to do a DPIA, it's mandatory only in specific cases. To check whether you need to do a DPIA, you can fill out the [pre-DPIA tool][pre-dpia]. If the result is that a DPIA is needed, you can contact the [Faculty Data Steward][datasteward] to assist in drafting one, or have a look at the [DPIA template][dpia].
 
 ## Agreements
 
 - [Data Sharing Statement][datasharingstatement]: if students (or student assistants) work on sensitive data, it is wise to have them sign a statement that they will treat the data confidentially.
 
+For agreements with third parties, it's best to be in touch with the [Faculty Data Steward][datasteward] who can assist in liasing with the relevant departments at the VU.
 
 
+
+```{r, echo=F, message = FALSE, results="asis"}
+
+print_more_resources()
+
+```

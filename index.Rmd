@@ -148,15 +148,17 @@ Policy comparions
 
 
 
-<!-- Templates -->
+<!-- Templates 
+find there in: Teams/Webpages research/datamanagement/files
+-->
 
-[privacystatement_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ESBLrBcDrLhLpzfiVI8nHmUB76Deu6chNA3xehbSeOnemw?e=OA1jdu
-[privacystatement_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EYTq4TISYv5ElJJzSRxC7IcByRFwKCzlMy8EAiOvBXpZmw?e=PIN51k
-[informedconsent_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ERBn_xahKvlLkDUK-U_tftEBotu01tkqAGJEmek6QaW7bA?e=bzCJmT
-[informedconsent_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ESJBHiS6_rhAkvgQcVIuvMYB4-fnXdlB0tAHNu82tHsVdA?e=Izrmsi
+[privacystatement_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ESBLrBcDrLhLpzfiVI8nHmUB76Deu6chNA3xehbSeOnemw?e=IKm8Qb
+[privacystatement_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EYTq4TISYv5ElJJzSRxC7IcByRFwKCzlMy8EAiOvBXpZmw?e=QLnXfB
+[informedconsent_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ERBn_xahKvlLkDUK-U_tftEBotu01tkqAGJEmek6QaW7bA?e=RgpKjO
+[informedconsent_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ESqv_KBkeEJPnzIe4JwM7YUBVUY_etYwMWDodDm2Yq5pFQ?e=9a3rCQ
 
-[pre-dpia]: https://vunl.sharepoint.com/:x:/s/FSW-OE-ResearchOfficeFSS/EWYcxpZIZsRGvbHtHYOxkEUB_wKceBaqf5Ru8FzzZcfwZw?e=3wLuPu
-[dpia]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EZghCIopj2xDhJod6pSoKNAB8cl62GyDo0qA2gfCMX0j3w?e=NcIVIu
+[pre-dpia]: https://vunl.sharepoint.com/:x:/s/FSW-OE-ResearchOfficeFSS/EX1MJyVi1h9MrRAbuzKnLyoBosb4QYSLPwoulyQgX8-qTA?e=mDpvYU
+[dpia]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EXTSY7ytMZdAk1p5D3BhCRoBbLxyyljF8MFRd2P4LfIjjg?e=Qmzhhk
 
 [liber-dmps]: https://libereurope.eu/working-group/research-data-management/plans/
 [dmponline-public]: https://dmponline.vu.nl/public_plans
