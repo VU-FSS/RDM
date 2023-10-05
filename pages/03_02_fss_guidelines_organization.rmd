@@ -1,4 +1,6 @@
-# VU FSS guidelines for data organization {#ongoing-rdm}
+# VU FSS guidelines for data organization {#fss-guidelines-organization}
+
+These guidelines are an extension of the [FSS RDM Guidelines][fss-guidelines-rdm].
 
 ## Introduction
 
@@ -6,11 +8,6 @@ Researchers of the Faculty of Social Sciences (FSS) are responsible for organizi
 
 These guidelines provide some general advice on data organization, as well as several use cases (quantitative and qualitative) that serve as inspriration for organizing research data. Each use case gives an outline of a folder organization that is used during the research. These use cases serve as examples, researchers are free to use any organization that fits the needs of their research.
 
-
-## General advice
-
-- When thinking about organizing your files, start at the end: where should these files end up? It's a good idea to keep files that you want to publish together with other files you want to publish. This saves times and prevents error when -- after project completion -- you decide which files should be archived, and which files should be published.
-- Follow [these best practices][bestpracticesfilenames] when naming files and folders.
 
 ## Use cases
 
@@ -41,42 +38,31 @@ Once a paper based on the data is published, a folder is created for that paper 
 	- Documentation
 	- Yoda metadata
 
-Note that the data itself is not publicly available because of privacy concerns. The raw data is only archived for verification purposes. In case of doubts about the research integrity, the Raw Data’s DOI (listed in each paper’s data statement and replication files’ metadata) can be used to quickly identify the data set for verification purposes.
+Note that the data itself is not made publicly available because of privacy concerns. The raw data is only archived for verification purposes. In case of doubts about the research integrity, the Raw Data’s DOI (listed in each paper’s data statement and replication files’ metadata) can be used to quickly identify the data set for verification purposes.
 
 ### Simple qualitative research project using Yoda
 
-The following is a basic qualitative project. All data is stored on Yoda. Once data collection is complete, the data folder is added to Yoda vault, a DOI of which is included in every paper.
+[Get the sample DMP for this use case here.](sample_dmps/FSS_Data_Organization_Guidelines-_Simple_Qualitative.pdf)
+
+
+The following is a basic qualitative project. All data is stored on Yoda. Once data collection is complete, the data folder is added to a non-public Yoda vault, a DOI of which is included in every paper. The documentation folder is made publicly available to allow re-use of topic lists etc. 
 
 - Yoda
-	- Raw Data (Vault)
+	- Raw Data (Vault, non-public)
 		- Interview recordings
 		- List of names with interviewees
 	- Data 
 		- Pseudonymized interview transcripts
-	- Documentation
+	- Documentation (Vault, public)
 		- Sampling information
 		- Topic lists
 		- Ethics review information
 		- Blank informed consent form
-	- Paper 1
-		- Text of paper
-		- Figures
+	- Papers: One sub-folder per paper containing text, figures, etc. for each paper. 
 
 
-### Using Yoda to archive PhD data
+```{r, echo=F, message = FALSE, results="asis"}
 
-As part of their portfolio, PhD candidates are required to follow the FAIR principles to ensure that their data is available for verification purposes. In this use case, the data is archived in Yoda. The organization is starts by asking the question where data needs to end up, and then works backwards to make that possible. 
+print_more_resources()
 
-This project has some data assets that need to be archived restricively, while others can be made freely available. We therefore made two top-level folders in Yoda: public and restricted, and divided the data assets among these two folders.
-
-- Restricted
-    - Raw data
-    - Sampling lists
-- Public
-    - Documentation
-        - Informed consent templates
-        - Sampling guides
-        - Topic lists
-    - Manuscript
-
-[bestpracticesfilenames]: https://yourlinkhere.com
+```
