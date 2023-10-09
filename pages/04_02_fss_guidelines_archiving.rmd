@@ -23,15 +23,14 @@ More actions you can take to make your data set more Findable:
 
 - Cite your data sets in your paper.
 
-
 ## Accessible
 
-Accessible means that there should be an established way to access your data. This does not mean your data should be public, just that there is a clearly communicated and transparent procedure put in place to access the data. 
+Accessible means that there should be an established way to access your data. This does not mean you should publish your data, just that there is a clearly communicated and transparent procedure put in place to access the data. 
 
 Actions required to allow for verification:
 
 - Add a data availability statement in your publication that explains how, and under what conditions, the data can be accessed.
-- Archive your data in a restricted-access repository like Yoda. 
+- Archive your data in a restricted-access repository like [Yoda][yoda]. 
 
 More actions you can take to make your data set more Accessible:
 
@@ -41,7 +40,7 @@ More actions you can take to make your data set more Accessible:
 
 Inter-operable means that someone else can use your data and combine it with their existing knowledge and workflows.
 
-Actions required by to allow for verification:
+Actions required to allow for verification:
 
 - Use common, preferably open, file formats.
 - Include documentation that can help people make sense of your data, such as codebooks, interviewer manuals, and topic lists. 
@@ -89,3 +88,8 @@ language in which the research was conducted.
 - Documents received from the Research Ethics Review Committee: at least the result of the self-check, and if applicable result from a full review.
 - If using personal data: information about the informed consent procedure, such as a privacy statement, or a blank informed consent form.
 
+```{r, echo=F, message = FALSE, results="asis"}
+
+print_more_resources()
+
+```
