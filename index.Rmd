@@ -28,9 +28,10 @@ local({r <- getOption("repos")
        options(repos=r)
 })
 
+display_more_resources <- T
 
 more_resources <- 
-"## More resources
+"## FSS RDM Resources
 - [Information when starting a new project][fss-getting-started]
 - [FSS RDM Guidelines][fss-guidelines-rdm]
 - [FSS Guidelines for data organization][fss-guidelines-organization]
@@ -39,8 +40,12 @@ more_resources <-
 - [Overview of RDM Tools ][fss-rdm-tools]
 "
 
+my_list <- list(a = 1, b = 2)
+
 print_more_resources <- function(){
-  cat(more_resources)
+  if (display_more_resources){
+    cat(more_resources)
+  }
 }
 
 ```
@@ -86,9 +91,11 @@ Make sure all links are defined here so that they can be easily updated.
 [fss-rdm-faq]: rdm-faq.html
 [fss-guidelines-rdm]: fss-guidelines-rdm.html
 [fss-guidelines-archiving]: fss-guidelines-archiving.html
-[fss-guidelines-organization]: vu-fss-guidelines-for-data-organization.html
+[fss-guidelines-organization]: fss-guidelines-organization.html
 [fss-rdm-tools]: rdm-tools.html
 [fss-getting-started]: https://vu.nl/en/employee/social-sciences-getting-started
+[fss-templates]: templates.html
+[fss-new-project]: 
 
 
 <!-- VU-wide Resources -->
