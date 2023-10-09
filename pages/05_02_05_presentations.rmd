@@ -2,3 +2,9 @@
 
 - [15 and 22 June 2023: Workshop Writing a DMP](assets/2023-1-WritingDMP-FSW-Workshop1and2-Presentation.pptx)
 - [19 June 2023, PSPA Department Meeting](presentations/rdm_for_pspa.pdf) 
+
+```{r, echo=F, message = FALSE, results="asis"}
+
+print_more_resources()
+
+```
