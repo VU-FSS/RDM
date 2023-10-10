@@ -105,6 +105,9 @@ Make sure all links are defined here so that they can be easily updated.
 [storage-costs]: https://vu.nl/en/employee/research-data-support/costs-research-en-archiving-storage
 
 [vu-minimal-metadata]: https://github.com/vu-rdm-tech/metadata/blob/main/minimal_metadata_guide.md
+
+
+[vu-knowledgesecurity]: https://vu.nl/en/employee/onderwijs-en-onderzoeksbeleid/knowledge-security-for-vu-amsterdam-employees
 <!---
 Rules, regulations and guidelines
 -->
