@@ -34,8 +34,8 @@ more_resources <-
 "## FSS RDM Resources
 - [Information when starting a new project][fss-getting-started]
 - [FSS RDM Guidelines][fss-guidelines-rdm]
-- [FSS Guidelines for data organization][fss-guidelines-organization]
-- [FSS Guidelines for data archiving][fss-archiving]
+- [Data organization][fss-guidelines-organization]
+- [Data archiving][fss-guidelines-archiving]
 - [RDM FAQ][fss-rdm-faq]
 - [Overview of RDM Tools ][fss-rdm-tools]
 "
@@ -90,8 +90,8 @@ Make sure all links are defined here so that they can be easily updated.
 [fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
 [fss-rdm-faq]: rdm-faq.html
 [fss-guidelines-rdm]: fss-guidelines-rdm.html
-[fss-guidelines-archiving]: fss-guidelines-archiving.html
-[fss-guidelines-organization]: fss-guidelines-organization.html
+[fss-guidelines-archiving]: data-archiving.html
+[fss-guidelines-organization]: data-organization.html
 [fss-rdm-tools]: rdm-tools.html
 [fss-getting-started]: https://vu.nl/en/employee/social-sciences-getting-started
 [fss-templates]: templates.html
@@ -110,12 +110,13 @@ Rules, regulations and guidelines
 -->
 
 [gdpr]: https://gdpr-info.eu
-[dsw-guidelines]: https://vunl-my.sharepoint.com/:b:/g/personal/k_leuveld_vu_nl/EUjMpC_8Yy5HsIkhFZ8SMecB9mET_yO0xgBh8rtbdjvw3g?e=QIw5Qg
+[dsw-guidelines]: https://vunl.sharepoint.com/:b:/s/FSW-OE-ResearchOfficeFSS/EWdu638M90NLpl4itmugiscBvXWSHuQXefay0wYgw9-P3Q?e=ZcakCq
 [erc-guidelines]: https://ec.europa.eu/research/participants/data/ref/h2020/other/hi/oa-pilot/h2020-hi-erc-oa-guide_en.pdf
 [vu-rdm-policy]: https://libguides.vu.nl/ld.php?content_id=32045526
 [nlcoc]: https://doi.org/10.17026/dans-2cj-nvwu
 [eucouncilopendata]: https://data.consilium.europa.eu/doc/document/ST-9526-2016-INIT/en/pdf
 [fairprinciples]: https://www.go-fair.org/fair-principles/
+[fairprinciples-background]: https://www.nature.com/articles/sdata201618
 [ABV-guidelines]: https://antropologen.nl/app/uploads/2019/01/guidelines-for-anthropological-research.pdf
 [NSV-guidelines]: https://www.nsv-sociologie.nl/?page_id=17
 [nkwp-guidelines]: http://politicologie.nl/wp-content/uploads/2021/10/Beroepscode-2008.doc

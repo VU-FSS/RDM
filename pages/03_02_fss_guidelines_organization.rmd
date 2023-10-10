@@ -1,12 +1,12 @@
-# VU FSS guidelines for data organization {#fss-guidelines-organization}
+# Data organization {#data-organization}
 
-These guidelines are an extension of the [FSS RDM Guidelines][fss-guidelines-rdm].
+This page is an extension of the [FSS RDM Guidelines][fss-guidelines-rdm].
 
 ## Introduction
 
-Researchers of the Faculty of Social Sciences (FSS) are responsible for organizing their data in such a way that they can be archived without excessive effort. In general terms, the aim is to ensure that a fellow researcher can use the data without asking too many questions. This ensures that the results of the research can be verified if the need arises. Furthermore, should additional researchers be added to a project - or a researcher gets back from a long hiatus - they can get started quickly. These guidelines are not prescriptive; they are meant to inspire researchers on how to manage their data when starting a new project, since changing folder structures once a project has started can be very difficult.
+Researchers of the Faculty of Social Sciences (FSS) are responsible for organizing their data in such a way that they can be archived without excessive effort. In general terms, the aim is to ensure that a fellow researcher can use the data without asking too many questions. This ensures that the results of the research can be verified if the need arises. Furthermore, should additional researchers be added to a project - or a researcher gets back from a long hiatus - they can get started quickly. 
 
-These guidelines provide some general advice on data organization, as well as several use cases (quantitative and qualitative) that serve as inspriration for organizing research data. Each use case gives an outline of a folder organization that is used during the research. These use cases serve as examples, researchers are free to use any organization that fits the needs of their research.
+This page provides several use cases (quantitative and qualitative) that serve as inspriration for organizing research data. Each use case gives an outline of a folder organization that is used during the research. These use cases serve as examples, researchers are free to use any organization that fits the needs of their research.
 
 
 ## Use cases

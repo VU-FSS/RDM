@@ -1,12 +1,12 @@
-# VU FSS guidelines for archiving data {#fss-guidelines-archiving}
+# Archiving and/or publishing data {#data-archiving}
 
-These guidelines are an extension of the [FSS RDM Guidelines](fss-guidelines-rdm).
+This page is an extension of the [FSS RDM Guidelines](fss-guidelines-rdm).
 
-When publishing research outputs, researchers at the Faculty of Social Sciences are expected apply the FAIR principles and to archive "all data that can be reasonably deemed necessary to verify the findings of the research". These guidelines serve as practical advice on how to achieve this. The first section discuss the constituent principles of FAIR data (Findability, Accessibility, Inter-operability and Re-usability), the second provides practical advice on what to archive, based on the Archiving Guidelines from the Deans of Social Sciences in the Netherlands.
+When publishing research outputs, researchers at the Faculty of Social Sciences are expected apply the FAIR principles and to archive "all data that can be reasonably deemed necessary to verify the findings of the research". This page aims to provide practical advice on how to achieve this. The first section discuss the constituent principles of FAIR data (Findability, Accessibility, Inter-operability and Re-usability), the second provides practical advice on what to archive, based on the [Archiving Guidelines from the Deans of Social Sciences in the Netherlands][dsw-guidelines].
 
 ## How to apply the FAIR principles
 
-The [FAIR principles](https://www.nature.com/articles/sdata201618) are a set of principles that guide researchers in making their data (or other research outputs) more valuable by increasing visibility, fostering collaboration, facilitating co-creation, and promoting transparency. To effectively implement the FAIR principles, it is beneficial to envision how your data will be reused, and then apply each principle accordingly. This involves ensuring discoverability of your data by end users, enabling easy access, facilitating integration with existing knowledge and workflows, and promoting its reuse.
+The [FAIR principles][fairprinciples-background] are a set of principles that guide researchers in making their data (or other research outputs) more valuable by increasing visibility, fostering collaboration, facilitating co-creation, and promoting transparency. To effectively implement the FAIR principles, it is beneficial to envision how your data will be reused, and then apply each principle accordingly. This involves ensuring discoverability of your data by end users, enabling easy access, facilitating integration with existing knowledge and workflows, and promoting its reuse.
 
 Given the diverse research traditions and approaches to data reuse within the faculty, there isn't a universally prescribed approach for applying the FAIR principles. However, as a minimum requirement, all data utilized within FSS should be usable for verifying the findings presented in publications resulting from the data. This section provides practical pointers, aligned with the FAIR principles, on how you can make verification possible. Additionally, it presents further steps you can take to increase the impact of your research outputs.
 
@@ -58,7 +58,7 @@ For your data to be re-usable, it needs to be clear what can and cannot happen w
 Actions required to allow for verification:
 
 - Include the informed consent sheets or privacy statements you provided your respondents, so that it is clear what they allow the data to be used for.
-- Make sure that when you register your dataset, or deposit it into a repository, you include detailed information like author, topic, keywords, etc. See the [VU's minimal metadata standards](vu-minimal-metadata). Note that [Yoda](yoda) requires you to include this information before submission.
+- Make sure that when you register your dataset, or deposit it into a repository, you include detailed information like author, topic, keywords, etc. See the [VU's minimal metadata standards][vu-minimal-metadata]. Note that [Yoda][yoda] requires you to include this information before submission.
 
 Actions you can take to make your data more Re-usable:
 
