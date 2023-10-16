@@ -1,0 +1,38 @@
+# Research Data Management {#FSS-RDM-Landing}
+
+## Data is essential in socio-scientific research.
+
+To the extent that conclusions in socio-scientific research rely on data, this data must be diligently collected and must be traceable for those who wish to verify these conclusions. All data also has an important documentation function: data that is collected in the present can prove to be of great value to future research (provided the data has been carefully managed and documented). 
+
+However, at the same time researchers are expected to protect the privacy rights of their respondents. The Research Office, and in particular the Faculty Data Steward, are there to support researchers in the choices they need to make to reconcile these conflicting demands. 
+
+## Data Management at a glance
+
+<details>
+<summary> **FSW RDM Policy** </summary>
+The [FSS RDM Guidelines][fss-guidelines-rdm] aim to condense all the policies around data management guidelines into one coherent set of guidelines. For each phase of the research life cycle, they offer practical advice on how to reconcile the various demands on how they manage their data.
+
+</details>
+
+<details>
+<summary>**Support throughout the research project life cycle**</summary>
+
+- [Starting a new project][fss-getting-started]
+How to start ethics approval? What to do to comply with GDPR? Where should I store my data? This page contains information on all the steps needed when starting a new project.
+- [Data Organization][fss-guidelines-organization]: Well-organized data is easier to handle, saving researchers time and it prevents mistakes caused by overlooking important data. Having a good structure to your data, and documenting it well, will help with this. The Data Organization Page provides a starting off points for researchers to get a good start with their data collection.
+- [Data archiving][fss-guidelines-archiving]: The data underlying scientific claims needs to be archived in order to be verifiable. You can choose a public repository for this, or a restricted-access archive. The FAIR guiding principles can help you in determining what to consider when choosing. 
+
+
+</details>
+
+
+<details>
+<summary>**Tools and information**</summary>
+- [RDM FAQ][fss-rdm-faq]
+- [Overview of RDM Tools ][fss-rdm-tools]
+
+
+</details>
+
+
+
