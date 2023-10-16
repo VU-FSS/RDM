@@ -52,7 +52,7 @@ print_more_resources <- function(){
 
 # Index
 
-This web site contains the latest draft versions of the Research Support Office's pages on
+This web site contains the latest draft versions of the Research Office's pages on
 Research Data Management. The current "official" versions of these pages can be accessed through
 the [Social Sciences Getting Started page][fss-getting-started].
 
