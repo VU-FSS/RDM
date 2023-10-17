@@ -17,7 +17,7 @@ The [FSS RDM Guidelines][fss-guidelines-rdm] aim to condense all the policies ar
 <details>
 <summary>**Support throughout the research project life cycle**</summary>
 
-- [Starting a new project][fss-getting-started]
+- [Starting a new project][fss-new-project]
 How to start ethics approval? What to do to comply with GDPR? Where should I store my data? This page contains information on all the steps needed when starting a new project.
 - [Data Organization][fss-guidelines-organization]: Well-organized data is easier to handle, saving researchers time and it prevents mistakes caused by overlooking important data. Having a good structure to your data, and documenting it well, will help with this. The Data Organization Page provides a starting off points for researchers to get a good start with their data collection.
 - [Data archiving][fss-guidelines-archiving]: The data underlying scientific claims needs to be archived in order to be verifiable. You can choose a public repository for this, or a restricted-access archive. The FAIR guiding principles can help you in determining what to consider when choosing. 

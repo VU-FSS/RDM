@@ -83,10 +83,10 @@ Make sure all links are defined here so that they can be easily updated.
 
 <!-- Faculty Pages -->
 
-[rerc]: https://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
+[rerc]: htteedps://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
 [self-check]: https://vuletteren.eu.qualtrics.com/jfe/form/SV_6hCj2czIWzboW6V
 [fss-rdm-info]: https://vu.nl/en/employee/social-sciences-getting-started/data-management-fss
-
+frg
 [fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
 [fss-rdm-faq]: rdm-faq.html
 [fss-guidelines-rdm]: fss-guidelines-rdm.html
@@ -95,7 +95,7 @@ Make sure all links are defined here so that they can be easily updated.
 [fss-rdm-tools]: rdm-tools.html
 [fss-getting-started]: https://vu.nl/en/employee/social-sciences-getting-started
 [fss-templates]: templates.html
-[fss-new-project]: 
+[fss-new-project]: new-rdm.html
 
 
 <!-- VU-wide Resources -->
@@ -181,5 +181,5 @@ find there in: Teams/Webpages research/datamanagement/files
 <!-- Contacts -->
 
 [rdmsupport]: mailto:RDM@vu.nl 
-[datasteward]: mailto:k.leuveld@vu.nl
+[datasteward]: mailto:data.fsw@vu.nl
 [privacychampion]: mailto:k.leuveld@vu.nl
