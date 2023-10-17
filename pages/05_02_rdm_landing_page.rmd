@@ -6,7 +6,7 @@ To the extent that conclusions in socio-scientific research rely on data, this d
 
 However, at the same time researchers are expected to protect the privacy rights of their respondents. The Research Office, and in particular the Faculty Data Steward, are there to support researchers in the choices they need to make to reconcile these conflicting demands. 
 
-## Data Management at a glance
+## Data Management at FSS
 
 <details>
 <summary> **FSW RDM Policy** </summary>
