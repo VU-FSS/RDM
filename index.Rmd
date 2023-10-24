@@ -83,10 +83,9 @@ Make sure all links are defined here so that they can be easily updated.
 
 <!-- Faculty Pages -->
 
-[rerc]: htteedps://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
+[rerc]: https://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
 [self-check]: https://vuletteren.eu.qualtrics.com/jfe/form/SV_6hCj2czIWzboW6V
 [fss-rdm-info]: https://vu.nl/en/employee/social-sciences-getting-started/data-management-fss
-frg
 [fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
 [fss-rdm-faq]: rdm-faq.html
 [fss-guidelines-rdm]: fss-guidelines-rdm.html
