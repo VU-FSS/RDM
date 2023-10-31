@@ -97,6 +97,9 @@ Make sure all links are defined here so that they can be easily updated.
 [fss-new-project]: new-rdm.html
 
 
+[policy-comparisons]: assets/policy_comparisons.pdf
+
+
 <!-- VU-wide Resources -->
 
 [libguide]: https://libguides.vu.nl/rdm

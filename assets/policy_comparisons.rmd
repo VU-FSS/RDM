@@ -1,0 +1,76 @@
+--- 
+title: "RDM Policy Comparisons"
+author: "FSW Data Steward"
+date: '`r format(Sys.time(), "%d %B %Y")`'
+geometry: margin=2cm
+output: 
+ pdf_document:
+  toc: true
+---
+
+<!---
+This document prints out policy comparisons between FSW policy and the (inter)national policies
+to a PDF file. The pdf output is uploaded to the VU website, and linked to in the FSS RDM Guidelines.
+ 
+It processes data from two tables, that should both be in the same folder as this one:
+- policy_comparisons_meta.csv: information about the policies
+- policy_comparisons.csv: point-by-point comparisons 
+
+-->
+
+
+
+```{r, include=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+
+comparisons <-
+   read_csv("policy_comparisons.csv")
+
+meta <-
+   read_csv("policy_comparisons_meta.csv")
+
+render_table <- function(foldheaders = T){
+
+	for (i in 1:nrow(meta)){
+		cat(paste("\\pagebreak\n\n"))
+
+		if (foldheaders) {
+			cat("<details>\n\n")
+			cat(paste("<summary><b>",meta$code_name[i]),"</b></summary>\n\n")
+		} else {
+			cat(paste("# ",meta$code_name[i]),"\n\n")
+		}
+		cat(paste("**Date:**",meta$code_date[i],"\n\n"))
+		cat(paste("**Last reviewed:**",meta$accessed_on[i],"\n\n"))
+		cat(paste("**URL:**",meta$url[i],"\n\n"))
+
+		comparisons %>%
+			filter(id == meta$id[i]) %>%
+			select(code,fsw) %>%
+			kable(col.names = c(meta$short_name[i],"FSS"),escape = F,
+					booktabs = T ,
+            	longtable=T,
+            	position = "h") %>%
+			column_spec(1,width="8.5cm") %>%
+			column_spec(2,width="8.5cm") %>%
+			kable_styling(latex_options = "repeat_header") %>%
+			kable_styling(latex_options = "striped") %>%
+
+			print()
+		cat("\n")
+		if (foldheaders) {
+			cat("</details>\n\n")
+		}
+	}
+
+
+}
+
+```
+
+
+```{r, echo=F, message = FALSE, results="asis"}
+	render_table(foldheaders=F)
+```

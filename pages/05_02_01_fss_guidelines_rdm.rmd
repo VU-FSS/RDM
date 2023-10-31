@@ -9,7 +9,7 @@ File history can be found in the git repo: https://github.com/vu-fss/rdm
 
 As a faculty committed to excellence in the quality of the research our staff and students undertake, it is essential to have guidelines on good practice in Research Data Management (RDM) as part of our framework to support the integrity of our research. These FSS guidelines serve both as a means of developing and supporting a culture of good practice in data management and demonstrating that we are committed to a culture and environment where high standards are encouraged and expected.
 
-The purpose of these guidelines is to reduce work pressure by condensing the various, and often conflicting, regulations into one cohesive set of procedures that ensure maximum compliance. Details on the various underlying policies can be found in the appendix below.
+The purpose of these guidelines is to reduce work pressure by condensing the various, and often conflicting, regulations into one cohesive set of procedures that ensure maximum compliance. Details on the various underlying policies, and how they're reflected in these guidelines, can be found [here][policy-comparisons].
 
 ## Stepping stones for good data management
 
@@ -97,49 +97,3 @@ These guidelines apply to all faculty staff members who conduct research in the 
 print_more_resources()
 
 ```
-
-## Appendix: Underlying policies
-
-The list below contains the regulations that these guidelines are based on. Since there are often conflicts between the regulations, the list includes a comparison between each item and these guidelines, so that any deviation from the regulation is made explicit.
-
-```{r, include=FALSE}
-
-comparisons <-
-   read_csv("assets/policy_comparisons.csv")
-
-meta <-
-   read_csv("assets/policy_comparisons_meta.csv")
-
-render_table <- function(foldheaders = T){
-
-	for (i in 1:nrow(meta)){
-		if (foldheaders) {
-			cat("<details>\n\n")
-			cat(paste("<summary><b>",meta$code_name[i]),"</b></summary>\n\n")
-		} else {
-			cat(paste("### ",meta$code_name[i]),"\n\n")
-		}
-		cat(paste("**Date:**",meta$code_date[i],"\n\n"))
-		cat(paste("**Last reviewed:**",meta$accessed_on[i],"\n\n"))
-		cat(paste("**URL:**",meta$url[i],"\n\n"))
-
-		comparisons %>%
-			filter(id == meta$id[i]) %>%
-			select(code,fsw) %>%
-			kable(col.names = c(meta$short_name[i],"FSS"),striped = T,escape = F) %>%
-			print()
-		cat("\n")
-		if (foldheaders) {
-			cat("</details>\n\n")
-		}
-	}
-
-
-}
-
-```
-
-```{r, echo=F, message = FALSE, results="asis"}
-	render_table(foldheaders=T)
-```
-
